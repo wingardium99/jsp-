@@ -8,8 +8,8 @@ import java.sql.ResultSet;
 public class UserDAO {
 
 	private Connection conn;
-	private PreparedStatement pstmt;
-	private ResultSet rs;
+	private PreparedStatement pstmt;  // 특정sql문장 수행하도록 하는 class
+	private ResultSet rs;  // sql 문장 수행이후 나온 결과값에 대해 처리하는 class
 	
 	public UserDAO() {
 		try {
